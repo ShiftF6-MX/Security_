@@ -6,9 +6,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import javafx.scene.control.Alert.AlertType;
+import mx.shf6.security.model.dao.UsuarioDAO;
 import mx.shf6.utilities.Notificacion;
 
-public class ControlAcceso {
+public class ControlAccesoDAO {
 
 	public static boolean autenticarUsuario(Connection connection, String usuario, String contrasena) {
 		int resultado = UsuarioDAO.validarUsuario(connection, usuario, contrasena);

@@ -1,4 +1,4 @@
-package mx.shf6.security;
+package mx.shf6.security.model;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.ObjectProperty;

@@ -1,4 +1,4 @@
-package mx.shf6.security;
+package mx.shf6.security.model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+
+import mx.shf6.security.model.RolGrupoUsuario;
 import mx.shf6.utilities.Notificacion;
 
 public class RolGrupoUsuarioDAO {
